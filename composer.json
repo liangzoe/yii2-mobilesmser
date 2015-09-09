@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "zoe\\smser\\": ""
+            "liangzoe\\mobilesmser\\": ""
         }
     }
 }
