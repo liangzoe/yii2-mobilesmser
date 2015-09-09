@@ -15,7 +15,7 @@ php composer.phar require --prefer-dist liangzoe/yii2-smser "*"
 or add
 
 ```
-"liangzoe/yii2-smser": "*"
+"liangzoe/yii2-mobilesmser": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -36,7 +36,7 @@ Usage
 ],
 
 ```use in phpfile
-Yii::$app->smser->send('手机号码', '短信内容');
+Yii::$app->smser->sendSMS('手机号码', '短信内容');
 ```
 
 '''reference in the view'''
