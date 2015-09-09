@@ -1,5 +1,5 @@
 {
-    "name": "zoe/yii2-smser",
+    "name": "zoe/yii2-telsmser",
     "description": "Yii2 SMS extension",
     "keywords": ["yii2", "extension", "sms", "smser", "plugin"],
     "homepage": "https://github.com/liangzoe/yii2-smser",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "zoe\\smser\\": ""
+            "zoe\\telsmser\\": ""
         }
     }
 }
