@@ -1,8 +1,8 @@
 {
-    "name": "zoe/yii2-smser",
+    "name": "liangzoe/yii2-mobilesmser",
     "description": "SMS extension for yii2 ",
     "keywords": ["yii2", "extension", "smser"],
-    "homepage": "https://github.com/liangzoe/yii2-smser",
+    "homepage": "https://github.com/liangzoe/yii2-mobilesmser",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "zoe\\smser\\": ""
+            "zoe\\mobilesmser\\": ""
         }
     }
 }
