@@ -9,7 +9,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist liangzoe/yii2-smser "*"
+php composer.phar require --prefer-dist liangzoe/yii2-mobilesmser "*"
 ```
 
 or add
