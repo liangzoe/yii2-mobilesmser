@@ -48,7 +48,7 @@ Yii::$app->smser->send('手机号码', '短信内容');
    var wait=60; 
 	
 		function time(o) {//o为按钮对象
-			checktel();
+		
 			if (wait == 0) { 
 		
 				o.removeAttribute("disabled"); 
