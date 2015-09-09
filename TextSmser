@@ -1,5 +1,5 @@
 <?php
-namespace zoe\smser;
+namespace liangzoe\mobilesmser;
 use Yii;
 use yii\helpers\FileHelper;
 
