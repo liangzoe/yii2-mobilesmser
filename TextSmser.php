@@ -43,13 +43,13 @@ class TextSmser extends \yii\base\Component
 	
 	public function sendSMS($mobile,$message)
 	{
-		$post_data['account'] = iconv('GB2312', 'GB2312',$username);
-		$post_data['pswd'] = iconv('GB2312', 'GB2312',$password);
+		$post_data['account'] = iconv('GB2312', 'GB2312',$this->username);
+		$post_data['pswd'] = iconv('GB2312', 'GB2312',$this->password);
 		$post_data['mobile'] =$mobile;
 		$post_data['msg']=mb_convert_encoding($message,'UTF-8', 'auto');
 		$url='';
 		 
-		$res = $this->request_post($url, $post_data);
+		$res = $this->request_post($this->url, $post_data);
 		print_r($res);
 	
 	}
