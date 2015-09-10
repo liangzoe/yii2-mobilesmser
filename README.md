@@ -28,7 +28,7 @@ Usage
 ````
 'smser' => [
     'smser' => [
-       	  'class' => 'zoe\smser\TextSmser',
+       	  'class' => 'liangzoe\mobilesmser\TextSmser',
 	        'url' => '',
 	        'username' => '',
 	        'password' => '',
